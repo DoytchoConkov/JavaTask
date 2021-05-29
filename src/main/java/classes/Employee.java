@@ -49,6 +49,7 @@ public class Employee {
     public void setScore(float score) {
         this.score = score;
     }
+
     public void setExperienceMultiplier(float experienceMultiplier) {
         this.experienceMultiplier = experienceMultiplier;
     }

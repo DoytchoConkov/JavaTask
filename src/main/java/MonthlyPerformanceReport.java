@@ -17,7 +17,7 @@ public class MonthlyPerformanceReport {
 
     public static void main(String[] args) throws FileNotFoundException {
         if(args.length != 2) {
-            System.out.print("Please run the app using following arguments: MonthlyPerformanceReport -pathDataFile='<path_to_data_file' -pathDefinitionFile='<path_to_definition_file>'");
+            System.out.print("Please run the app using following arguments: MonthlyPerformanceReport -pathDataFile='<path_to_data_file>' -pathDefinitionFile='<path_to_definition_file>'");
             System.exit(1);
         }
 
